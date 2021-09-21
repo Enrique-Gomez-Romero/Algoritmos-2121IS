@@ -52,24 +52,23 @@
 //console.log("Paso 4: Caminar a la entrada de la uni");
 //console.log("Paso 5: Caminar al aula");
 
-var Tortillas = 10;
+var tortillas = 10;
 var p = "Paso";
-var DineroM = 9;
+var dineroMio = 9;
 var DineroN = 11;
 
 
 console.log(p+"1:Salir de mi casa con el dinero");
 console.log(p+"2:Caminar");
 console.log(p+"3:Llegar a la tienda y pedirlas");
- if (Tortillas < DineroM ) {
+if (tortillas < dineroMio ) {
      console.log("Te regresas feliz de la vida a tu cassa");
-
-     
- } else {
+} 
+else {
      console.log(p+"4 Te regresas a tu casa pensando lo pendejo que estas xD");
      console.log(p+"5 Regresas a tu casa a Tomar dinero")
      console.log(p+"6 Tomas el dinero y regresas a la tienda")
-     if (Tortillas < DineroN  ) {
+if (tortillas < DineroN  ) {
          console.log("Por fin tienes tus tortillas ")
          
      }
